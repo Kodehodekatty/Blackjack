@@ -1,0 +1,212 @@
+body {
+
+    background-image: url("images/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+
+
+
+
+
+
+}
+
+
+
+
+h1 {
+
+    margin: 30px auto;
+    color: goldenrod;
+    font-family: fantasy;
+    text-shadow: 0 0 8px #000000;
+    letter-spacing: 5;
+    text-shadow:
+        0 0 4px rgb(0, 0, 0),
+        0 0 4px rgb(0, 0, 0),
+        0 0 4px rgba(2, 2, 2, 0.701),
+        0 0 20px rgba(0, 0, 0, 0.744);
+}
+
+
+
+
+button {
+    color: #000000;
+    width: 150px;
+    height: 40px;
+    background: #d7e84e;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: card;
+    font-size: 30px;
+    letter-spacing: 4;
+
+
+}
+
+#wrapper {
+
+    margin: 200px 500px auto;
+
+    width: 500px;
+    height: 350px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.592), rgba(115, 199, 199, 0.701));
+    border: 7px inset rgba(15, 178, 66, 0.734);
+    position: absolute;
+    transform-style: flat;
+
+
+
+
+
+
+}
+
+button:hover {
+    cursor: pointer;
+    scale: 90%;
+    box-shadow: 0 0 11px #fff,
+        0 0 20px #fff,
+        0 0 40px #0fa;
+
+}
+
+#sum-el {
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 35px;
+    text-shadow: 0 0 2px solid black;
+
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-shadow: 0 0 3px #000000;
+    font-family: card;
+    font-size: xx-large;
+
+
+}
+
+#cards-el {
+    font-family: card;
+    text-shadow: 1 0 2px solid black;
+    color: #000000;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -15px;
+    letter-spacing: 10px;
+    background-color: white;
+    width: 350px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid black;
+
+
+
+}
+
+
+@font-face {
+    font-family: card;
+    src: url(images/WinterPrincess-EaZv4.ttf);
+
+}
+
+@font-face {
+    font-family: aaa;
+    src: url(images/PrideCometh-XmX2.ttf);
+}
+
+#message-el {
+
+    font-family: aaa;
+
+    font-size: 20px;
+    text-shadow: 0 0 3px #000000;
+
+
+}
+
+
+
+@font-face {
+    font-family: tex;
+    src: url(images/CuteNCuddly-vmZAD.ttf);
+}
+
+#player-el {
+    font-family: card;
+    font-size: 30px;
+    text-shadow: 0 0 8px #000000;
+    margin: 0 auto;
+
+}
+
+.mystyle {
+
+    animation: test 4s infinite;
+
+}
+
+@keyframes test {
+    0% {
+        color: red
+    }
+
+    100% {
+        scale: 170%;
+        color: red;
+    }
+
+}
+
+.blak {
+
+    animation: won 4s infinite;
+
+
+
+}
+
+@keyframes won {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        scale: 150%;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px #0fa,
+            0 0 80px #0fa,
+            0 0 90px #0fa,
+            0 0 60px #0fa,
+            0 0 50px #0fa;
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
