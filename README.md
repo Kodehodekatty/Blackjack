@@ -1,2 +1,4 @@
 # Blackjack
-scrimba, task.
+
+
+https://kodehodekatty.github.io/Blackjack/
